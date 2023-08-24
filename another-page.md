@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Another page
-description: This is just another page
+title: BIG-MAP - WP5 - 
+big data
+description: Best practices to handle big data in 
 ---
 
 ## Welcome to another page
