@@ -9,7 +9,7 @@ description: Best practices to handle big data in WP5
 fffff
 _yay_
 
-**Volume
+Volume
 	Big data is characterized by its immense volume, often ranging from several gigabytes  to petabytes and beyond
 	Traditional Databases are designed for structured data and typically handle up to gigabyte of data.
 Velocity
@@ -18,7 +18,9 @@ Velocity
 Variety
 	Big data comes in various formats, including structured (relational databases), semi-structured (XML), and unstructured (images).
 	Traditional Databases: Primarily deal with structured data, such as relational databases.
+
+ 
 ![image](https://github.com/cnherrera/cnherrera.github.io/assets/25098422/36643da1-30ae-427f-ae1d-da36e09213e3)
-**
+
 
 [back](./)
