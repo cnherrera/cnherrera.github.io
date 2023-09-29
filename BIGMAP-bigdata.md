@@ -10,7 +10,6 @@ description: Best practices to handle big data in WP5
 ![image](https://github.com/cnherrera/cnherrera.github.io/assets/25098422/36643da1-30ae-427f-ae1d-da36e09213e3)
 
 
-
 # Big data
 
 New technologies have allowed a fast development of battery characterization techniques, resulting in increasingly diverse and complex data, with volumes that can easily become large. Big data refers to data that requires new techniques, algorithms, and analyses to extract valuable knowledge due to its volume, diversity, and complexity. Computationally analyzing large datasets can reveal patterns, trends, and associations.
