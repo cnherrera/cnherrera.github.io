@@ -25,6 +25,63 @@ consistent and descriptive names will make it easier to locate and understand th
 7.	Backup your data: regularly backup your data to prevent data loss using institutions’ servers, hard drives or cloud-based services. It may be helpful to set automatic synchronization routines, e.g. rsync, for specific directories.
 
   
+## Example:
+```
+Experimental Data
+|-- SampleType
+|   |-- LNO_Gr
+|   |   |-- CharacterizationTechniques
+|   |   |   |-- XRD
+|   |   |   |   |-- 20230115
+|   |   |   |   |   |-- ExperimentalPreparation
+|   |   |   |   |   |   |--…
+|   |   |   |   |   |-- Data_Set_1
+|   |   |   |   |   |   |-- rawdata
+|   |   |   |   |   |   |-- processed
+|   |   |   |   |   |   |-- metadatainformation.txt
+|   |   |   |   |   |-- Data_Set_2
+|   |   |   |   |       |-- rawdata
+|   |   |   |   |       |-- processed
+|   |   |   |   |-- SEM
+|   |   |   |   |   |-- 20221210
+|   |   |   |   |   |   |-- ...
+|   |   |   |   |-- Transmission Electron Microscopy (TEM)
+|   |   |   |       |-- 2022-03-20
+|   |   |   |       |   |-- ...
+|   |   |-- Si
+|   |       |-- ...
+|-- Metadata
+|   |-- Sample_Type_Metadata.xlsx
+|-- DataAnalysis
+|   |-- SampleType
+|   |   |-- LNO_Gr
+|   |   |   |-- CharacterizationTechniques
+|   |   |   |   |-- XRD_Analysis
+|   |   |   |   |   |-- 20220115
+|   |   |   |   |   |   |-- Analysis_Results
+|   |   |   |   |   |-- SEM_Analysis
+|   |   |   |   |   |   |-- ...
+|   |   |   |   |-- TEM_Analysis
+|   |   |   |       |-- 202203-0
+|   |   |   |       |   |-- ...
+|   |   |-- Sample_B
+|   |       |-- ...
+|-- Reports
+|   |-- Sample_Type_Reports
+|   |   |-- Sample_A
+|   |   |   |-- XRD_Report.pdf
+|   |   |   |-- SEM_Report.pdf
+|   |   |   |-- TEM_Report.pdf
+|   |   |-- Sample_B
+|   |       |-- ...
+|-- Raw Data (General)
+|   |-- Sample_Type_Raw_Data
+|   |   |-- Sample_A
+|   |   |   |-- ...
+|   |   |-- Sample_B
+|   |       |-- ...
+```
+
 
  
 
