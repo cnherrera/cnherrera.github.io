@@ -4,7 +4,9 @@ title: BIG-MAP - WP5 - big data
 description: Data structure and organization
 ---
 
-## This platform is 
+## Data organization is a fundamental task in general data analysis, regardless of the data type and size. 
+
+## Here we describe seven steps to effectively organize and handle data.
 
 ![image](https://github.com/cnherrera/cnherrera.github.io/assets/25098422/8247947c-d9ca-4832-a160-2807076da3d5)
 
