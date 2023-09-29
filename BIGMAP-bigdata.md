@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: main
 title: BIG-MAP - WP5 - big data
 description: Best practices to handle big data in WP5
 ---
