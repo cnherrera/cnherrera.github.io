@@ -8,6 +8,8 @@ description: Data structure and organization
 
 fffff
 _yay_
+![image](https://github.com/cnherrera/cnherrera.github.io/assets/25098422/8247947c-d9ca-4832-a160-2807076da3d5)
+
 1.	Well-defined and consistent data and files structure: consider using a hierarchical folder structure to categorize and store different types of data.
 2.	Develop a naming convention for your files and folders: consistent and descriptive names will make it easier to locate and understand the content of your data. For experimental data, it is good practice to name the folder with the acquisition date.
 3.	Separate raw, pre-processed, processed, and analyzed data: maintain separate folders or directories for each stage of data processing. This separation ensures that you can easily track the data's progression and avoid confusion (or worst, overwrite the raw data!).
