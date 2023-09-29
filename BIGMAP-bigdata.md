@@ -7,6 +7,8 @@ description: Best practices to handle big data in WP5
 ### This collaborative webpage is here to foster cooperation, offering tips, assistance, and script improvements for effectively managing your (big) data.
 ### We have identified two key approaches: data organization and data processing.
 
+* * *
+
 ![image](https://github.com/cnherrera/cnherrera.github.io/assets/25098422/36643da1-30ae-427f-ae1d-da36e09213e3)
 
 
