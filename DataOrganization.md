@@ -6,15 +6,15 @@ description: Data structure and organization
 
 ## This platform is 
 
-fffff
-_yay_
 ![image](https://github.com/cnherrera/cnherrera.github.io/assets/25098422/8247947c-d9ca-4832-a160-2807076da3d5)
 
 
 ![image](https://github.com/cnherrera/cnherrera.github.io/assets/25098422/bc92fa09-4897-46c2-a93f-5e9df63e1ae9)
+
 Consider using a hierarchical folder structure to categorize and store different types of data.
 
 ![image](https://github.com/cnherrera/cnherrera.github.io/assets/25098422/5bb703bb-c4d3-4608-8ce9-f60094525152)
+
 consistent and descriptive names will make it easier to locate and understand the content of your data. For experimental data, it is good practice to name the folder with the acquisition date.
 
 
