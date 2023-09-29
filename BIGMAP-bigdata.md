@@ -23,4 +23,4 @@ Variety
 ![image](https://github.com/cnherrera/cnherrera.github.io/assets/25098422/36643da1-30ae-427f-ae1d-da36e09213e3)
 
 
-[back](./)
+[Data structure and organization](./)
