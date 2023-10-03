@@ -15,7 +15,24 @@ In the following we explain each of the steps:
 ![image](https://github.com/cnherrera/cnherrera.github.io/assets/25098422/bc92fa09-4897-46c2-a93f-5e9df63e1ae9){:height="50px"}
 
 Consider using a hierarchical folder structure to categorize and store different types of data. The hierarchy will depend on the scientific goal.
-### Example:
+
+<details>
+
+<summary>Example</summary>
+
+### You can add a header
+
+You can add text within a collapsed section. 
+
+You can add an image or a code block, too.
+
+```ruby
+   puts "Hello World"
+```
+
+</details>
+
+### Example
 ```
 ExperimentalData
 |-- SampleType
