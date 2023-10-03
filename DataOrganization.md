@@ -1,5 +1,5 @@
 ---
-layout: subpages
+layout: subpages1
 title: BIG-MAP - WP5 - big data
 description: Data structure and organization
 ---
