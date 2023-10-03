@@ -5,9 +5,10 @@ description: Best practices for big data in WP5
 ---
 Welcome to our collaborative online platform designed to empower scientists like you in our working group. This website serves as a hub for seamless collaboration, providing valuable insights, practical tips, and script enhancements for efficient management and analysis of extensive battery characterization data. Whether you're handling big data or addressing the challenges of poor-quality (bad) data, our platform is here to support you every step of the way. Explore examples, access tutorials, and tap into a wealth of resources as we work together to unlock the full potential of your research.
 
-### We have identified two key approaches: data organization and data processing.
+### We have identified two key approaches: data organization and data processing. You can access them from the links at the top of the page. 
 
 * * *
+
 
 ![image](https://github.com/cnherrera/cnherrera.github.io/assets/25098422/36643da1-30ae-427f-ae1d-da36e09213e3)
 
