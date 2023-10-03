@@ -40,8 +40,6 @@ DataAnalysis
 |   |   |-- LNO_Gr
 |   |   |   |-- ...
 ```
-```
-
 
 ![image](https://github.com/cnherrera/cnherrera.github.io/assets/25098422/5bb703bb-c4d3-4608-8ce9-f60094525152)
 
