@@ -104,8 +104,8 @@ DataAnalysis
 ![number4](https://github.com/cnherrera/cnherrera.github.io/assets/25098422/068bbcae-68c6-44ca-a160-59bb02e26f5e){:height="50px"}
 
 Keep a record of the steps and procedures you follow during data processing. Documenting your workflow will help you reproduce your results and troubleshoot any issues that may arise.
-{::options parse_block_html="true" /}
 
+{::options parse_block_html="true" /}
 <details><summary markdown="span">Press for an example</summary>
 ```
 ExperimentalData
@@ -138,8 +138,6 @@ DataAnalysis
 |   |   |   |-- ...
 ```
 </details>
-<br/>
-
 {::options parse_block_html="false" /}
 
 ![image](https://github.com/cnherrera/cnherrera.github.io/assets/25098422/fc18669b-27db-4fb3-8984-c8e487a03710){:height="50px"}
