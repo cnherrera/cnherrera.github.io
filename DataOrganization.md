@@ -17,7 +17,6 @@ In the following we explain each of the steps:
 Consider using a hierarchical folder structure to categorize and store different types of data. The hierarchy will depend on the scientific goal.
 
 {::options parse_block_html="true" /}
-
 <details><summary markdown="span">Press for an example</summary>
   ```
 ExperimentalData
@@ -44,8 +43,6 @@ DataAnalysis
 |   |   |   |-- ...
 ```
 </details>
-<br/>
-
 {::options parse_block_html="false" /}
 
 
@@ -54,7 +51,6 @@ DataAnalysis
 Consistent and descriptive names will make it easier to locate and understand the content of your data. For experimental data, it is good practice to name the folder with the acquisition date.
 
 {::options parse_block_html="true" /}
-
 <details><summary markdown="span">Press for an example</summary>
 ```
 ExperimentalData
@@ -70,12 +66,14 @@ ExperimentalData
 |   |   |   |-- SEM
 |   |   |   |   |-- ...
 ```
+</details>
+{::options parse_block_html="false" /}
 
 ![image](https://github.com/cnherrera/cnherrera.github.io/assets/25098422/a9f8b46a-19c3-4b69-aaf3-b1d3f705a34c){:height="70px"}
 
 Separate raw, pre-processed, processed, and analyzed data: maintain separate folders or directories for each stage of data processing. This separation ensures that you can easily track the data's progression and avoid confusion (or worst, overwrite the raw data!).
-{::options parse_block_html="true" /}
 
+{::options parse_block_html="true" /}
 <details><summary markdown="span">Press for an example</summary>
 ```
 ExperimentalData
@@ -101,8 +99,6 @@ DataAnalysis
 |   |   |   |   |-- ...   
 ```
 </details>
-<br/>
-
 {::options parse_block_html="false" /}
 
 ![number4](https://github.com/cnherrera/cnherrera.github.io/assets/25098422/068bbcae-68c6-44ca-a160-59bb02e26f5e){:height="50px"}
