@@ -18,21 +18,8 @@ Consider using a hierarchical folder structure to categorize and store different
 
 {::options parse_block_html="true" /}
 
-<details><summary markdown="span">Let's see some code!</summary>
-```python
-print('Hello World!')
-```
-Of course, it has to be Hello World, right?
-</details>
-<br/>
-
-{::options parse_block_html="false" /}
-
-
-<details>
-<summary>Example</summary>
-
-```
+<details><summary markdown="span">Press for an example</summary>
+  ```
 ExperimentalData
 |-- SampleType
 |   |-- LNO_Gr
@@ -56,9 +43,12 @@ DataAnalysis
 |   |   |-- LNO_Gr
 |   |   |   |-- ...
 ```
-
-
 </details>
+<br/>
+
+{::options parse_block_html="false" /}
+
+
 
 ### Example
 ```
