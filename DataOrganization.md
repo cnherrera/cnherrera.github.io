@@ -16,7 +16,6 @@ In the following we explain each of the steps:
 
 Consider using a hierarchical folder structure to categorize and store different types of data. The hierarchy will depend on the scientific goal.
 
-
 {::options parse_block_html="true" /}
 
 <details><summary markdown="span">Let's see some code!</summary>
