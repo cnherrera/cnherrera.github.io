@@ -4,17 +4,43 @@ title: BIG-MAP - WP5 - big data
 description: Data structure and organization
 ---
 
-## Data organization is a fundamental task in general data analysis, regardless of the data type and size. 
+Data organization is a fundamental task in general data analysis, regardless of the data type and size. It is essential for understanding the data and thus work efficiently. We propose following seven steps to effectively organize and handle the data.
 
 ## Here we describe seven steps to effectively organize and handle data.
 
 ![image](https://github.com/cnherrera/cnherrera.github.io/assets/25098422/8247947c-d9ca-4832-a160-2807076da3d5)
 
+In the following we explain each of the steps:
 
 ![image](https://github.com/cnherrera/cnherrera.github.io/assets/25098422/bc92fa09-4897-46c2-a93f-5e9df63e1ae9)
 
-Consider using a hierarchical folder structure to categorize and store different types of data.
-### Example
+Consider using a hierarchical folder structure to categorize and store different types of data. The hierarchy will depend on the scientific goal.
+### For example:
+```
+ExperimentalData
+|-- SampleType
+|   |-- LNO_Gr
+|   |   |-- CharacterizationTechniques
+|   |   |   |-- XRD
+|   |   |   |   |-- ...
+|   |   |   |-- SEM
+|   |   |   |   |-- ...
+|   |   |   |-- ...
+|   |-- Sample_B
+|   |   |-- ...
+DataAnalysis
+|-- SampleType
+|   |-- LNO_Gr
+|   |   |-- CharacterizationTechniques
+|   |   |   |-- ...
+|   |-- Sample_B
+|   |   |-- ...
+|-- Reports
+|   |-- Sample_Type_Reports
+|   |   |-- LNO_Gr
+|   |   |   |-- ...
+```
+```
 
 
 ![image](https://github.com/cnherrera/cnherrera.github.io/assets/25098422/5bb703bb-c4d3-4608-8ce9-f60094525152)
