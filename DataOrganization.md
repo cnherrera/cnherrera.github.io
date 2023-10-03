@@ -49,37 +49,13 @@ DataAnalysis
 {::options parse_block_html="false" /}
 
 
-
-### Example
-```
-ExperimentalData
-|-- SampleType
-|   |-- LNO_Gr
-|   |   |-- CharacterizationTechniques
-|   |   |   |-- XRD
-|   |   |   |   |-- ...
-|   |   |   |-- SEM
-|   |   |   |   |-- ...
-|   |   |   |-- ...
-|   |-- Sample_B
-|   |   |-- ...
-DataAnalysis
-|-- SampleType
-|   |-- LNO_Gr
-|   |   |-- CharacterizationTechniques
-|   |   |   |-- ...
-|   |-- Sample_B
-|   |   |-- ...
-|-- Reports
-|   |-- Sample_Type_Reports
-|   |   |-- LNO_Gr
-|   |   |   |-- ...
-```
-
 ![image](https://github.com/cnherrera/cnherrera.github.io/assets/25098422/5bb703bb-c4d3-4608-8ce9-f60094525152){:height="50px"}
 
 Consistent and descriptive names will make it easier to locate and understand the content of your data. For experimental data, it is good practice to name the folder with the acquisition date.
-### Example
+
+{::options parse_block_html="true" /}
+
+<details><summary markdown="span">Press for an example</summary>
 ```
 ExperimentalData
 |-- SampleType
@@ -98,7 +74,9 @@ ExperimentalData
 ![image](https://github.com/cnherrera/cnherrera.github.io/assets/25098422/a9f8b46a-19c3-4b69-aaf3-b1d3f705a34c){:height="70px"}
 
 Separate raw, pre-processed, processed, and analyzed data: maintain separate folders or directories for each stage of data processing. This separation ensures that you can easily track the data's progression and avoid confusion (or worst, overwrite the raw data!).
-### Example
+{::options parse_block_html="true" /}
+
+<details><summary markdown="span">Press for an example</summary>
 ```
 ExperimentalData
 |-- SampleType
@@ -122,11 +100,17 @@ DataAnalysis
 |   |   |   |   |   | -- analyzed
 |   |   |   |   |-- ...   
 ```
+</details>
+<br/>
+
+{::options parse_block_html="false" /}
 
 ![number4](https://github.com/cnherrera/cnherrera.github.io/assets/25098422/068bbcae-68c6-44ca-a160-59bb02e26f5e){:height="50px"}
 
 Keep a record of the steps and procedures you follow during data processing. Documenting your workflow will help you reproduce your results and troubleshoot any issues that may arise.
-### Example
+{::options parse_block_html="true" /}
+
+<details><summary markdown="span">Press for an example</summary>
 ```
 ExperimentalData
 |-- SampleType
@@ -157,6 +141,10 @@ DataAnalysis
 |   |   |   |-- SEM_Report.pdf
 |   |   |   |-- ...
 ```
+</details>
+<br/>
+
+{::options parse_block_html="false" /}
 
 ![image](https://github.com/cnherrera/cnherrera.github.io/assets/25098422/fc18669b-27db-4fb3-8984-c8e487a03710){:height="50px"}
 
