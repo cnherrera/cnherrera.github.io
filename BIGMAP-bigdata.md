@@ -1,11 +1,16 @@
 ---
 layout: main
 title: BIG-MAP - WP5 - big data
-description: Best practices to handle big data in WP5
+description: Best practices for big data in WP5
 ---
 
-### This collaborative webpage is here to foster cooperation, offering tips, assistance, and script improvements for effectively managing your (big) data.
-The idea is to use this platform as a collaborative centralized help trying to use this ans that
+### Welcome to our collaborative online platform designed to empower scientists like you in our research group. This website serves as a hub for seamless collaboration, providing valuable insights, practical tips, and script enhancements for efficient management and analysis of extensive battery characterization data. Whether you're handling big data or addressing the challenges of poor-quality data, our platform is here to support you every step of the way. Explore examples, access tutorials, and tap into a wealth of resources as we work together to unlock the full potential of your research.
+
+## Discover the power of data organization and advanced data processing techniques as we embark on this journey together.
+
+
+
+
 ### We have identified two key approaches: data organization and data processing.
 
 * * *
