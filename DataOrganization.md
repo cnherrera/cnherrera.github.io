@@ -15,7 +15,7 @@ In the following we explain each of the steps:
 ![image](https://github.com/cnherrera/cnherrera.github.io/assets/25098422/bc92fa09-4897-46c2-a93f-5e9df63e1ae9)
 
 Consider using a hierarchical folder structure to categorize and store different types of data. The hierarchy will depend on the scientific goal.
-### For example:
+### Example:
 ```
 ExperimentalData
 |-- SampleType
@@ -51,10 +51,12 @@ Consistent and descriptive names will make it easier to locate and understand th
 Separate raw, pre-processed, processed, and analyzed data: maintain separate folders or directories for each stage of data processing. This separation ensures that you can easily track the data's progression and avoid confusion (or worst, overwrite the raw data!).
 
 
-4.
+
+
 Document your workflow: keep a record of the steps and procedures you follow during data processing. Documenting your workflow will help you reproduce your results and troubleshoot any issues that may arise.
 
-6.	Implement version control: in the case your data undergoes iterative changes during analysis, using version control software (e.g. git) is a good practice to keep track of different versions and modifications. This can be particularly helpful when collaborating with other colleagues.
+![image](https://github.com/cnherrera/cnherrera.github.io/assets/25098422/fc18669b-27db-4fb3-8984-c8e487a03710)
+Implement version control: in the case your data undergoes iterative changes during analysis, using version control software (e.g. git) is a good practice to keep track of different versions and modifications. This can be particularly helpful when collaborating with other colleagues.
 
 ![image](https://github.com/cnherrera/cnherrera.github.io/assets/25098422/56865c6f-07e5-4139-b86f-8d6c1da9b120)
 
