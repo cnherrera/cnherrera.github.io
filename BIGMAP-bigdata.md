@@ -8,6 +8,7 @@ Welcome to our collaborative online platform designed to empower scientists like
 ### We have identified two key approaches: data organization and data processing. You can access them from the links at the top of the page. 
 
 * * *
+In the following, we shed light on what big data is and why it's important to (your) science.
 
 
 ![image](https://github.com/cnherrera/cnherrera.github.io/assets/25098422/36643da1-30ae-427f-ae1d-da36e09213e3)
