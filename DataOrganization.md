@@ -45,7 +45,20 @@ DataAnalysis
 
 Consistent and descriptive names will make it easier to locate and understand the content of your data. For experimental data, it is good practice to name the folder with the acquisition date.
 ### Example
-
+```
+ExperimentalData
+|-- SampleType
+|   |-- LNO_Gr
+|   |   |-- CharacterizationTechniques
+|   |   |   |-- XRD
+|   |   |   |   |-- ExperimentalPreparation
+|   |   |   |   |-- 02112023_run
+|   |   |   |   |   | ...
+|   |   |   |   |-- 30112023_run
+|   |   |   |   |   | ...
+|   |   |   |-- SEM
+|   |   |   |   |-- ...
+```
 
 ![image](https://github.com/cnherrera/cnherrera.github.io/assets/25098422/a9f8b46a-19c3-4b69-aaf3-b1d3f705a34c){:height="70px"}
 
