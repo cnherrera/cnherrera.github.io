@@ -179,6 +179,17 @@ chmod +x /myrsyncsync.sh
 </details>
 {::options parse_block_html="false" /}
 
+* * * 
+
+# Discussion
+
+Add here any topic or question you would like to discuss.
+
+## Topic 1
+
+
+## Topic 2
+
 
 
 [back](BIGMAP-bigdata.md)
