@@ -17,18 +17,33 @@ In the following we explain each of the steps:
 Consider using a hierarchical folder structure to categorize and store different types of data. The hierarchy will depend on the scientific goal.
 
 <details>
-
 <summary>Example</summary>
 
-### You can add a header
-
-You can add text within a collapsed section. 
-
-You can add an image or a code block, too.
-
-```ruby
-   puts "Hello World"
 ```
+ExperimentalData
+|-- SampleType
+|   |-- LNO_Gr
+|   |   |-- CharacterizationTechniques
+|   |   |   |-- XRD
+|   |   |   |   |-- ...
+|   |   |   |-- SEM
+|   |   |   |   |-- ...
+|   |   |   |-- ...
+|   |-- Sample_B
+|   |   |-- ...
+DataAnalysis
+|-- SampleType
+|   |-- LNO_Gr
+|   |   |-- CharacterizationTechniques
+|   |   |   |-- ...
+|   |-- Sample_B
+|   |   |-- ...
+|-- Reports
+|   |-- Sample_Type_Reports
+|   |   |-- LNO_Gr
+|   |   |   |-- ...
+```
+
 
 </details>
 
