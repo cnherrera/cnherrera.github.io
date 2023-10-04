@@ -119,6 +119,7 @@ ExperimentalData
 |   |   |   |   |   | -- preprocessed
 |   |   |   |   |   | -- processed
 |   |   |   |   |   | -- metadata
+|   |   |   |   |   | -- logs
 |   |   |   |   |-- ...
 DataAnalysis
 |-- SampleType
@@ -186,6 +187,8 @@ chmod +x /myrsyncsync.sh
 # Discussion
 
 Add here any topic or question you would like to discuss.
+Please modify the file: https://github.com/cnherrera/cnherrera.github.io/edit/master/DataOrganization.md
+
 
 ## Topic 1
 
