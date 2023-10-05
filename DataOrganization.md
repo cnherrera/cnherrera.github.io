@@ -106,9 +106,9 @@ DataAnalysis
 Keep a record of the steps and procedures you follow during data processing. Documenting your workflow will help you reproduce your results and troubleshoot any issues that may arise.
 
 {::options parse_block_html="true" /}
-<details><summary markdown="span">Press for an examplefor experimental report</summary>
+<details><summary markdown="span">Press for an example for experimental report</summary>
 
-Experimental report
+**Experimental report**
 ```
 # X-ray Diffraction (XRD) Experiment Report
 
@@ -129,11 +129,12 @@ Experimental report
 - Incident X-ray Energy: [Energy in keV]
 - Scattering Angle Range: [Range in degrees]
 ```
+</details>
+{::options parse_block_html="false" /}
 
 
 
-
-Data processing report
+**Data processing report**
 ```
 ## Data Processing
 - Data Reduction: [Describe any reduction steps, e.g., background subtraction, normalization]
@@ -151,7 +152,11 @@ Data processing report
 - [Cite any relevant literature or previous studies]
 ```
 
+{::options parse_block_html="true" /}
+<details><summary markdown="span">Press for an example for data analysis report</summary>
+  
 **Data Analysis Report Template**
+This a template with the basic structure to report data analysis. It has to be customized to fit the specific details and requirements of your technique and research objectives.
 
 ```
 # XRD Data Analysis Report
@@ -186,13 +191,12 @@ Data processing report
 
 ```
 
-These templates provide a basic structure for reporting an XRD experiment and its subsequent data processing and analysis. Customize them to fit the specific details and requirements of your experiment and research objectives.
-
-
-
 
 </details>
 {::options parse_block_html="false" /}
+
+
+
 
 ![image](https://github.com/cnherrera/cnherrera.github.io/assets/25098422/fc18669b-27db-4fb3-8984-c8e487a03710){:height="50px"}
 
