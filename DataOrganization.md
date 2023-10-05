@@ -139,6 +139,11 @@ This is a basic example to document the experiment.
 </details>
 {::options parse_block_html="false" /}
 
+
+{::options parse_block_html="true" /}
+<details><summary markdown="span">**Press for an example of data analysis report**</summary>
+
+
 **Data Analysis Report Template**
 
 This a template with the basic structure to report data analysis. It has to be customized to fit the specific details and requirements of your technique and research objectives.
@@ -194,7 +199,57 @@ In the case your data undergoes iterative changes during analysis, using version
 - Code used for data handling and analysis will be maintained with version control.
 - Observables can be shared with colleague.
 
-(add tutorial?)
+
+{::options parse_block_html="true" /}
+<details><summary markdown="span">**Press for basic steps to use git**</summary>
+
+
+## Git global setup
+------------------
+```
+git config --global user.name "Your Name"
+git config --global user.email "youremail@email.com"
+```
+  
+## Use git locally in your machine.
+```
+1. In the directory  you want to create the repository, initialize new repository git
+   git init
+2. If you have already the files created, add them in the stagging phase
+   git add .   # if you want to add specific files, change '.' by the name of the file
+3. Commit the changes to your local repository
+   git commit -m "updating files"
+   Every time you modify your files, you have to "add" them to the stagging phase and then "commit"
+4. Commit history can be displayed
+   git log
+```
+
+
+## Push you local repertory to GitHub
+```
+git remore add origin <remote_repository_url>
+# naming your branch "main"
+git branch -M main 
+and push to GitHub
+git push -u origin main
+```
+
+
+## Using an existing repository on GitHub to modify files
+```
+git clone https://github.com/my/repository.git
+cd repository
+# modify any existing file, e.g. myscript.py
+git status # check the current status
+git add myscript.py # Add changes
+git commit -m "updated script" # Commit changes (with a message)
+git push origin branchname # Push changes on Github, branchname is typically main.
+```
+
+</details>
+{::options parse_block_html="false" /}
+
+
 
 ![image](https://github.com/cnherrera/cnherrera.github.io/assets/25098422/56865c6f-07e5-4139-b86f-8d6c1da9b120){:height="50px"}
 
