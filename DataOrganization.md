@@ -106,7 +106,7 @@ DataAnalysis
 Keep a record of the steps and procedures you follow during data processing. Documenting your workflow will help you reproduce your results and troubleshoot any issues that may arise.
 
 {::options parse_block_html="true" /}
-<details><summary markdown="span">Press for an example for experimental report</summary>
+<details><summary markdown="span">**Press for an example for experimental report**</summary>
 
 **Experimental report**
 ```
@@ -133,8 +133,10 @@ Keep a record of the steps and procedures you follow during data processing. Doc
 {::options parse_block_html="false" /}
 
 
+{::options parse_block_html="true" /}
+<details><summary markdown="span"><h3>ress for an example for experimental report</h3></summary>
 
-**Data processing report**
+**Data processing log**
 ```
 ## Data Processing
 - Data Reduction: [Describe any reduction steps, e.g., background subtraction, normalization]
@@ -148,9 +150,10 @@ Keep a record of the steps and procedures you follow during data processing. Doc
 ## Conclusion
 - [Summarize the main outcomes of the experiment]
 
-## References
-- [Cite any relevant literature or previous studies]
 ```
+
+</details>
+{::options parse_block_html="false" /}
 
 {::options parse_block_html="true" /}
 <details><summary markdown="span">Press for an example for data analysis report</summary>
