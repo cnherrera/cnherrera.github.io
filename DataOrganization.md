@@ -106,38 +106,91 @@ DataAnalysis
 Keep a record of the steps and procedures you follow during data processing. Documenting your workflow will help you reproduce your results and troubleshoot any issues that may arise.
 
 {::options parse_block_html="true" /}
-<details><summary markdown="span">Press for an example</summary>
+<details><summary markdown="span">Press for an examplefor experimental report</summary>
+
+Experimental report
 ```
-ExperimentalData
-|-- SampleType
-|   |-- LNO_Gr
-|   |   |-- CharacterizationTechniques
-|   |   |   |-- XRD
-|   |   |   |   |-- ExperimentalPreparation
-|   |   |   |   |-- 02112023_run
-|   |   |   |   |   | -- rawdata
-|   |   |   |   |   | -- preprocessed
-|   |   |   |   |   | -- processed
-|   |   |   |   |   | -- metadata
-|   |   |   |   |   | -- logs
-|   |   |   |   |-- ...
-DataAnalysis
-|-- SampleType
-|   |-- LNO_Gr
-|   |   |-- CharacterizationTechniques
-|   |   |   |-- XRD
-|   |   |   |   |-- 02112023_run
-|   |   |   |   |   | -- algorithms
-|   |   |   |   |   | -- analyzed
-|   |   |   |   |   | -- documentation.txt
-|   |   |   |   |-- ...   
-|-- Reports
-|   |-- Sample_Type_Reports
-|   |   |-- Sample_A
-|   |   |   |-- XRD_Report.pdf
-|   |   |   |-- SEM_Report.pdf
-|   |   |   |-- ...
+# X-ray Diffraction (XRD) Experiment Report
+
+## Experiment Details
+- Facility: ESRF
+- Beamline Name/ID: [Beamline Name or ID]
+- Experiment Date: [Date of the Experiment]
+- Sample Description: [Description of the Sample]
+- Experimental Setup: [G
+
+## Experimental Procedure
+1. [Brief description of the experimental setup and sample preparation]
+2. [Details of the XRD data collection procedure, including exposure times, angles, etc.]
+3. [Any specific conditions or parameters used during the experiment]
+
+## Data Collection
+- Raw XRD Data Files: [List the file names or folder containing the raw data]
+- Incident X-ray Energy: [Energy in keV]
+- Scattering Angle Range: [Range in degrees]
 ```
+
+
+
+
+Data processing report
+```
+## Data Processing
+- Data Reduction: [Describe any reduction steps, e.g., background subtraction, normalization]
+- Data Calibration: [If applicable, mention any calibration steps]
+- Data Quality Control: [Describe checks for data quality and any outlier removal]
+- Output Data Format: [Specify the format of the processed data]
+
+## Results
+- [Present key findings, such as diffraction patterns, crystal structures, etc.]
+
+## Conclusion
+- [Summarize the main outcomes of the experiment]
+
+## References
+- [Cite any relevant literature or previous studies]
+```
+
+**Data Analysis Report Template**
+
+```
+# XRD Data Analysis Report
+
+## Analysis Details
+- Experiment Date: [Date of the XRD Experiment]
+- Data Source: [Specify the source of the XRD data, e.g., synchrotron ESRF]
+- Data Processing: [Briefly mention any data processing steps]
+
+## Data Analysis
+1. **Peak Identification**
+   - [Identify and describe any observed peaks in the XRD pattern]
+2. **Crystal Structure Determination**
+   - [Discuss the crystal structure analysis results if applicable]
+3. **Phase Analysis**
+   - [Explain the phases present in the sample based on the XRD data]
+4. **Texture Analysis**
+   - [Discuss any texture information obtained from the XRD pattern]
+
+## Results and Interpretation
+- [Present the results of the data analysis, including identified phases, crystal structures, and any relevant findings]
+
+## Discussion
+- [Discuss the significance of the results and their implications for the research]
+
+## Conclusion
+- [Summarize the key findings and conclusions drawn from the XRD data analysis]
+
+## References
+- [Cite any references to relevant literature or software tools used in the analysis]
+
+
+```
+
+These templates provide a basic structure for reporting an XRD experiment and its subsequent data processing and analysis. Customize them to fit the specific details and requirements of your experiment and research objectives.
+
+
+
+
 </details>
 {::options parse_block_html="false" /}
 
