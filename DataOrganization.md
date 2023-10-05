@@ -106,10 +106,14 @@ DataAnalysis
 Keep a record of the steps and procedures you follow during data processing. Documenting your workflow will help you reproduce your results and troubleshoot any issues that may arise.
 
 {::options parse_block_html="true" /}
-<details><summary markdown="span">**Press for an example for experimental report**</summary>
+<details><summary markdown="span">**Press for an example of experimental report**</summary>
 
 **Experimental report**
+
+
+
 ```
+
 # X-ray Diffraction (XRD) Experiment Report
 
 ## Experiment Details
@@ -134,9 +138,12 @@ Keep a record of the steps and procedures you follow during data processing. Doc
 
 
 {::options parse_block_html="true" /}
-<details><summary markdown="span"><h3>ress for an example for experimental report</h3></summary>
+<details><summary markdown="span">**Press for an example for a data processing log**</summary>
 
 **Data processing log**
+
+Different steps of data processing should be documented. Here we present an example in the form of a log (text file).
+
 ```
 ## Data Processing
 - Data Reduction: [Describe any reduction steps, e.g., background subtraction, normalization]
@@ -156,9 +163,10 @@ Keep a record of the steps and procedures you follow during data processing. Doc
 {::options parse_block_html="false" /}
 
 {::options parse_block_html="true" /}
-<details><summary markdown="span">Press for an example for data analysis report</summary>
+<details><summary markdown="span">**Press for an example of data analysis report**</summary>
   
 **Data Analysis Report Template**
+
 This a template with the basic structure to report data analysis. It has to be customized to fit the specific details and requirements of your technique and research objectives.
 
 ```
