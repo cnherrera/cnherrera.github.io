@@ -214,16 +214,23 @@ git config --global user.email "youremail@email.com"
 ```
   
 ## Use git locally in your machine.
-```
+
 1. In the directory  you want to create the repository, initialize new repository git
-   git init
-2. If you have already the files created, add them in the stagging phase
-   git add .   # if you want to add specific files, change '.' by the name of the file
+```
+git init
+```  
+2. If you have already the files created, add them in the virtual repertory
+```
+git add .   # if you want to add specific files, change '.' by the name of the file
+```
 3. Commit the changes to your local repository
-   git commit -m "updating files"
-   Every time you modify your files, you have to "add" them to the stagging phase and then "commit"
+```
+git commit -m "updating files"
+```
+   Every time you modify your files, you have to "add" them to the virtual repertory and then "commit"
 4. Commit history can be displayed
-   git log
+```
+git log
 ```
 
 
@@ -232,7 +239,7 @@ git config --global user.email "youremail@email.com"
 git remore add origin <remote_repository_url>
 # naming your branch "main"
 git branch -M main 
-and push to GitHub
+# and push to GitHub
 git push -u origin main
 ```
 
@@ -247,6 +254,9 @@ git add myscript.py # Add changes
 git commit -m "updated script" # Commit changes (with a message)
 git push origin branchname # Push changes on Github, branchname is typically main.
 ```
+
+
+add branching, etc
 
 </details>
 {::options parse_block_html="false" /}
