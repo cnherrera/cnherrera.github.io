@@ -110,10 +110,9 @@ Keep a record of the steps and procedures you follow during data processing. Doc
 
 **Experimental report**
 
-
+This is a basic example to document the experiment.
 
 ```
-
 # X-ray Diffraction (XRD) Experiment Report
 
 ## Experiment Details
@@ -121,7 +120,7 @@ Keep a record of the steps and procedures you follow during data processing. Doc
 - Beamline Name/ID: [Beamline Name or ID]
 - Experiment Date: [Date of the Experiment]
 - Sample Description: [Description of the Sample]
-- Experimental Setup: [G
+- Incident X-ray Energy: [Energy in keV]
 
 ## Experimental Procedure
 1. [Brief description of the experimental setup and sample preparation]
@@ -130,41 +129,16 @@ Keep a record of the steps and procedures you follow during data processing. Doc
 
 ## Data Collection
 - Raw XRD Data Files: [List the file names or folder containing the raw data]
-- Incident X-ray Energy: [Energy in keV]
+- Specifications: [Any specification on the rawdata needed for further processing]
 - Scattering Angle Range: [Range in degrees]
-```
-</details>
-{::options parse_block_html="false" /}
-
-
-{::options parse_block_html="true" /}
-<details><summary markdown="span">**Press for an example for a data processing log**</summary>
-
-**Data processing log**
-
-Different steps of data processing should be documented. Here we present an example in the form of a log (text file).
-
-```
-## Data Processing
-- Data Reduction: [Describe any reduction steps, e.g., background subtraction, normalization]
-- Data Calibration: [If applicable, mention any calibration steps]
-- Data Quality Control: [Describe checks for data quality and any outlier removal]
-- Output Data Format: [Specify the format of the processed data]
-
-## Results
-- [Present key findings, such as diffraction patterns, crystal structures, etc.]
 
 ## Conclusion
 - [Summarize the main outcomes of the experiment]
 
 ```
-
 </details>
 {::options parse_block_html="false" /}
 
-{::options parse_block_html="true" /}
-<details><summary markdown="span">**Press for an example of data analysis report**</summary>
-  
 **Data Analysis Report Template**
 
 This a template with the basic structure to report data analysis. It has to be customized to fit the specific details and requirements of your technique and research objectives.
@@ -175,7 +149,11 @@ This a template with the basic structure to report data analysis. It has to be c
 ## Analysis Details
 - Experiment Date: [Date of the XRD Experiment]
 - Data Source: [Specify the source of the XRD data, e.g., synchrotron ESRF]
-- Data Processing: [Briefly mention any data processing steps]
+- Data Calibration: [If applicable, mention any calibration steps]
+- Data Analysis Software: []
+- Data Processing: [Briefly mention any data processing step se.g., background subtraction, normalization] 
+- Data Quality Control: [Describe checks for data quality and any outlier removal]
+
 
 ## Data Analysis
 1. **Peak Identification**
@@ -198,7 +176,6 @@ This a template with the basic structure to report data analysis. It has to be c
 
 ## References
 - [Cite any references to relevant literature or software tools used in the analysis]
-
 
 ```
 
