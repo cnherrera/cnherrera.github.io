@@ -265,7 +265,9 @@ add branching, etc
 
 ![image](https://github.com/cnherrera/cnherrera.github.io/assets/25098422/56865c6f-07e5-4139-b86f-8d6c1da9b120){:height="50px"}
 
-Include metadata with your data to provide additional information about its characteristics, such as sample and any preprocessing steps applied. Well-documented metadata facilitates data discovery and understanding. A further step can be considered by ontologizing metadata following ontologies by WP7
+Include metadata alonside your data to provide supplementary information crucial forunderstandind the dataset. This information can include specifics regarding the sample and experiment, as well as any preprocessing procedures applied. Well-documented metadata facilitates data discovery and understanding.
+
+A further step can be considered by ontologizing metadata following ontologies by WP7
 (add example? how?)
 
 ![image](https://github.com/cnherrera/cnherrera.github.io/assets/25098422/2518deca-5e68-49ab-9b06-5babef35e4e6){:height="50px"}
@@ -299,7 +301,12 @@ chmod +x /myrsyncsync.sh
 # Discussion
 
 Add here any topic or question you would like to discuss.
-Please modify the file: https://github.com/cnherrera/cnherrera.github.io/edit/master/DataOrganization.md
+Please modify the file: 
+  <li class="masthead__menu-item">
+          <a href="https://github.com/cnherrera/cnherrera.github.io/edit/master/DataOrganization.md">Edit Data Organization</a>
+        </li>
+        
+        https://github.com/cnherrera/cnherrera.github.io/edit/master/DataOrganization.md
 
 
 ## Topic 1
