@@ -256,6 +256,11 @@ add branching, etc
 
 There are many tutorials one can follow to learn git. Some of them:
 
+<a href="https://githowto.com/">General git tutorial 1</a>
+<a href="https://gitimmersion.com/">General git tutorial 2</a>
+<a href="https://learngitbranching.js.org/">Learn git branching interactively</a>
+
+    
 
 </details>
 {::options parse_block_html="false" /}
