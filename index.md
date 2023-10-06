@@ -20,7 +20,6 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 # Astronomy
 
-
 ## Header 2
 
 > This is a blockquote following a header.
