@@ -110,7 +110,7 @@ Keep a record of the steps and procedures you follow during data processing. Doc
 
 This is a basic example to document the experiment.
 
-```
+```yml
 # X-ray Diffraction (XRD) Experiment Report
 
 ## Experiment Details
