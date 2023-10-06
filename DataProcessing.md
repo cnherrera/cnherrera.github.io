@@ -12,7 +12,7 @@ Data processing and analysis should always be tailored to the nature of the data
 
 When it comes to analyzing big data, scripting using languages like Python, which offers a wide range of helpful libraries, is a vital tool in your toolkit. With numerous datasets to handle, scripting allows you to automate tasks across all datasets, saving you time and maintaining consistency in your analysis. The beauty of scripted algorithms lies in their adaptability; modifications can be made easily to meet changing data needs.
 
-One of the key advantages of scripted data analysis is standardization. Each step of your analysis process is meticulously documented, creating a robust framework that can be effortlessly applied to different datasets. Moreover, you have the flexibility to craft custom visualizations tailored to the unique requirements of each dataset. This not only boosts efficiency but also ensures the reliability of your analysis, which is crucial for generating dependable results."
+One of the key advantages of scripted data analysis is standardization. Each step of your analysis process is meticulously documented, creating a robust framework that can be effortlessly applied to different datasets. Moreover, you have the flexibility to craft custom visualizations tailored to the unique requirements of each dataset. This not only boosts efficiency but also ensures the reliability of your analysis, which is crucial for generating dependable results.
 
 {::options parse_block_html="true" /}
 <details><summary markdown="span">**Press for parallel processing examples**</summary>
