@@ -108,8 +108,6 @@ Keep a record of the steps and procedures you follow during data processing. Doc
 {::options parse_block_html="true" /}
 <details><summary markdown="span">**Press for an example of experimental report**</summary>
 
-**Experimental report**
-
 This is a basic example to document the experiment.
 
 ```
@@ -144,9 +142,6 @@ This is a basic example to document the experiment.
 
 {::options parse_block_html="true" /}
 <details><summary markdown="span">**Press for an example of data analysis report**</summary>
-
-
-**Data Analysis Report Template**
 
 This a template with the basic structure to report data analysis. It has to be customized to fit the specific details and requirements of your technique and research objectives.
 
@@ -221,7 +216,8 @@ git init
 ```  
 2. If you have already the files created, add them in the virtual repertory
 ```
-git add .   # if you want to add specific files, change '.' by the name of the file
+git add .   # add all files in the current directory
+git add myfile.txt  # add a scpedific file
 ```
 3. Commit the changes to your local repository
 ```
@@ -234,20 +230,20 @@ git log
 ```
 
 
-## Push you local repertory to GitHub
+## Push you local repository to GitHub
+You can push your local repository to GitHub as follows:
+
 ```
-git remore add origin <remote_repository_url>
-# naming your branch "main"
-git branch -M main 
-# and push to GitHub
-git push -u origin main
+git remote add origin <remote_repository_url>
+git branch -M main  # naming your branch "main"
+git push -u origin main # and push to GitHub
 ```
 
 
 ## Using an existing repository on GitHub to modify files
 ```
-git clone https://github.com/my/repository.git
-cd repository
+git clone https://github.com/my/repository.git  # clone existing repository
+cd repository  # enter to the repository  directory
 # modify any existing file, e.g. myscript.py
 git status # check the current status
 git add myscript.py # Add changes
@@ -255,12 +251,14 @@ git commit -m "updated script" # Commit changes (with a message)
 git push origin branchname # Push changes on Github, branchname is typically main.
 ```
 
-
 add branching, etc
+
+
+There are many tutorials one can follow to learn git. Some of them:
+
 
 </details>
 {::options parse_block_html="false" /}
-
 
 
 ![image](https://github.com/cnherrera/cnherrera.github.io/assets/25098422/56865c6f-07e5-4139-b86f-8d6c1da9b120){:height="50px"}
@@ -290,7 +288,7 @@ You should regularly backup your data to prevent data loss using institutions’
 
 
 {::options parse_block_html="true" /}
-<details><summary markdown="span">**->Press for an example to automate synchronization<-**</summary>
+<details><summary markdown="span">**Press for an example to automate synchronization**</summary>
   
   For Unix-like system, it is helpful to create systematic synchronization of data. To do that, we need to create a cron job. We need to edit the crontab as follows:
 ```
