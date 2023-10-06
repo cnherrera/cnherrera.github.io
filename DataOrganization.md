@@ -315,22 +315,16 @@ chmod +x /myrsyncsync.sh
 # Discussion
 
 Add here any topic or question you would like to discuss.
-Please modify the file:   <li>
-          <a href="https://github.com/cnherrera/cnherrera.github.io/edit/master/DataOrganization.md">Edit Data Organization</a>
-        </li>
-        
-  <li class="masthead__menu-item">
-          <a href="https://github.com/cnherrera/cnherrera.github.io/edit/master/DataOrganization.md">Edit Data Organization</a>
-        </li>
-        
-        https://github.com/cnherrera/cnherrera.github.io/edit/master/DataOrganization.md
-
+Please modify the file: 
+          <a href="https://github.com/cnherrera/cnherrera.github.io/blob/master/DataOrganization.md">Edit Data Organization</a>
+    
 
 ## Topic 1
+[Add topic here]
 
 
 ## Topic 2
-
+[Add topic here]
 
 
 [back](BIGMAP-bigdata.md)
