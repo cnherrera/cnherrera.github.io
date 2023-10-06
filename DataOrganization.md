@@ -274,7 +274,7 @@ You should regularly backup your data to prevent data loss using institutions’
 
 
 {::options parse_block_html="true" /}
-<details><summary markdown="span">**Press for an example to automate synchronization**</summary>
+<details><summary markdown="span">**->Press for an example to automate synchronization<-**</summary>
   
   For Unix-like system, it is helpful to create systematic synchronization of data. To do that, we need to create a cron job. We need to edit the crontab as follows:
 ```
