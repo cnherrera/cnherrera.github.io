@@ -3,12 +3,10 @@ layout: subpages2
 title: BIG-MAP - WP5 - big data
 description: Data processing
 ---
-
-Data organization is a fundamental task in general data analysis, regardless of the data type and size. It is essential for understanding the data and thus work efficiently. We propose following seven steps to effectively organize and handle the data.
-
-## Script and optimizing scripts
+Data processing and analysis should always be tailored to the nature of the data at hand. In this context, we delve into three essential aspects of effectively managing both extensive datasets and low-quality (bad) data, all while offering practical examples and valuable tips. This platform is designed specifically for scientists, not necessarily experts in big data handing and analysis, aiming to assist you in your research journey and help you better exploit your data.
 
 
+# 1. Scripting and optimizing scripts
 
 {::options parse_block_html="true" /}
 <details><summary markdown="span">**Press for parallel processing examples**</summary>
@@ -23,6 +21,11 @@ def hola:
 
 
 
+
+
+# 2. Analytic Techniques
+
+# 3. Data integration
 
 * * * 
 
