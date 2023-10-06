@@ -270,21 +270,21 @@ Include metadata with your data to provide additional information about its char
 
 ![image](https://github.com/cnherrera/cnherrera.github.io/assets/25098422/2518deca-5e68-49ab-9b06-5babef35e4e6){:height="50px"}
 
-Regularly backup your data to prevent data loss using institutions’ servers, hard drives or cloud-based services. It may be helpful to set automatic synchronization routines, e.g. rsync, for specific directories.
+You should regularly backup your data to prevent data loss using institutions’ servers, hard drives or cloud-based services. It may be helpful to set automatic synchronization routines for specific files or directories.
 
 
 {::options parse_block_html="true" /}
 <details><summary markdown="span">**Press for an example to automate synchronization**</summary>
   
-  For Unix-like system, it is helpful to create systematic synchronization of data. To do that, we need to create a cron job. We need to edit the cronjob as follows:
+  For Unix-like system, it is helpful to create systematic synchronization of data. To do that, we need to create a cron job. We need to edit the crontab as follows:
 ```
 crontab -e
 ```
-And it will be open to add a job. We want the synchronization to be done on Tuesdays and Fridays at noon:
+this will open an editor in which you should specify the frequency of the synchronization, here we set it to every Tuesday and Friday at noon:
 ```
 0 12 * * 2,5 /path/to/rsync/myrsyncscript.sh
 ``` 
-Create a myrsyncscript.sh that contains the syncrhonization command, and change the permission to be able to be executed for any user:
+You need to create the script myrsyncscript.sh containing the syncrhonization command, and change the permission to be able to be executed for any user:
 ```
 echo "rsync -avz /path/to/local/folder/ username@remote_server:/path/to/remote/folder/" > myrsyncscript.sh
 chmod +x /myrsyncsync.sh
