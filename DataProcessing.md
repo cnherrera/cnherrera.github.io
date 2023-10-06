@@ -10,6 +10,8 @@ Data processing and analysis should always be tailored to the nature of the data
 
 {::options parse_block_html="true" /}
 <details><summary markdown="span">**Press for parallel processing examples**</summary>
+
+
 ```python
 def hola:
    return
@@ -17,10 +19,6 @@ def hola:
 ```
 </details>
 {::options parse_block_html="false" /}
-
-
-
-
 
 
 # 2. Analytic Techniques
