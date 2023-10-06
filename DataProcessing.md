@@ -29,14 +29,14 @@ def hola:
 
 When it comes to exploring big data, a spectrum of analytical techniques awaits your exploration. From statistical analysis to data mining and the wonders of machine learning, these methods hold the power to unearth valuable insights and patterns within the vast landscape of big data. Here, we offer concise descriptions of these three approaches to help you navigate and analyze your data effectively.
 
+## i. Statistical analysis
 
-i.	Statistical analysis
 Statistical models offer numerous avenues for extracting meaningful information from big data sets. Descriptive statistics, such as means, medians, variances, and standard deviations, provide a comprehensive overview of the data’s characteristics. Basic correlation analysis, both linear and nonlinear, using parameters such as the Pearson correlation coefficient, helps uncover relationships within the data. Furthermore, techniques like Principal Component Analysis (PCA) are used to reduce datasets complexity by lowering dimensionality. Bayesian models are also useful for estimating probabilities and assessing uncertainty. The Kolmorogov-Smirnov test proves useful in determining whether two datasets come from the same underlying distribution.
 
-ii.	Data mining
+## ii. Data mining
 Data mining refers to the discovery of patterns or associations within large datasets, with the goal of extracting useful information for decision-making or anomaly detection. This is done by using techniques such as clustering, which groups similar data points (e.g. using K-Means models), discovering unknown relationships between variables, finding unusual patterns, among others.
 
-iii.	Machine Learning
+## iii. Machine Learning
 Machine learning offers a wide range of possibilities for leveraging data efficiently, representing a rapidly evolving field. The core concept involves developing algorithms and models capable of learning from existing data to make predictions. Models can be based on supervised learning (training data is labeled), unsupervised learning (e.g. clustering methods) and reinforcement learning. Machine learning models find application in image recognition (for imaging techniques), classification of spectral data, and more. A significant challenge in this domain lies in the creation of large databases essential for training these models. Building robust datasets is crucial to the success of machine learning applications, enabling the models to generalize and make accurate predictions.
 
 
