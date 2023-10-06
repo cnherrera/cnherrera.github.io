@@ -267,8 +267,22 @@ add branching, etc
 
 Include metadata alonside your data to provide supplementary information crucial forunderstandind the dataset. This information can include specifics regarding the sample and experiment, as well as any preprocessing procedures applied. Well-documented metadata facilitates data discovery and understanding.
 
+
+{::options parse_block_html="true" /}
+<details><summary markdown="span">**Press for a discussion on ontologizing metadata**</summary>
+
 A further step can be considered by ontologizing metadata following ontologies by WP7
-(add example? how?)
+(add example? how?).
+- why it is important?
+- Give an example
+- Needs for more development on the behind the scenes (RDP)
+- add links on things that are currently working.
+
+
+</details>
+{::options parse_block_html="false" /}
+
+
 
 ![image](https://github.com/cnherrera/cnherrera.github.io/assets/25098422/2518deca-5e68-49ab-9b06-5babef35e4e6){:height="50px"}
 
