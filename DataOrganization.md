@@ -192,11 +192,6 @@ This a template with the basic structure to report data analysis. It has to be c
 
 In the case your data undergoes iterative changes during analysis, using version control software (e.g. git) is a good practice to keep track of different versions and modifications. This can be particularly helpful when collaborating with other colleagues. There are many online free tutorials that can be followed to be able to use git.
 
-- Create github repository
-- Code used for data handling and analysis will be maintained with version control.
-- Observables can be shared with colleague.
-
-
 {::options parse_block_html="true" /}
 <details><summary markdown="span">**Press for basic steps to use git**</summary>
 
