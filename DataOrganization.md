@@ -14,10 +14,10 @@ In the following we explain each of the steps:
 
 ![image](https://github.com/cnherrera/cnherrera.github.io/assets/25098422/bc92fa09-4897-46c2-a93f-5e9df63e1ae9){:height="50px"}
 
-Consider using a hierarchical folder structure to categorize and store different types of data. The hierarchy will depend on the scientific goal.
+Consider implementing a hierarchical folder structure to systematically categorize and store different types of data. The hierarchy will depend on the scientific goal.
 
 {::options parse_block_html="true" /}
-<details><summary markdown="span">Press for an example</summary>
+<details><summary markdown="span">**Press for an example on data structure**</summary>
   ```
 ExperimentalData
 |-- SampleType
@@ -51,7 +51,7 @@ DataAnalysis
 Consistent and descriptive names will make it easier to locate and understand the content of your data. For experimental data, it is good practice to name the folder with the acquisition date.
 
 {::options parse_block_html="true" /}
-<details><summary markdown="span">Press for an example</summary>
+<details><summary markdown="span">**Press for an example for naming convention**</summary>
 ```
 ExperimentalData
 |-- SampleType
@@ -74,7 +74,7 @@ ExperimentalData
 Separate raw, pre-processed, processed, and analyzed data: maintain separate folders or directories for each stage of data processing. This separation ensures that you can easily track the data's progression and avoid confusion (or worst, overwrite the raw data!).
 
 {::options parse_block_html="true" /}
-<details><summary markdown="span">Press for an example</summary>
+<details><summary markdown="span">**Press for an example**</summary>
 ```
 ExperimentalData
 |-- SampleType
