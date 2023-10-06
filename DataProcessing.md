@@ -12,7 +12,7 @@ Data organization is a fundamental task in general data analysis, regardless of 
 
 {::options parse_block_html="true" /}
 <details><summary markdown="span">**Press for parallel processing examples**</summary>
-  ``` Python
+```python
 def hola:
    return
 
