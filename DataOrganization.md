@@ -18,7 +18,7 @@ Consider implementing a hierarchical folder structure to systematically categori
 
 {::options parse_block_html="true" /}
 <details><summary markdown="span">**Press for an example on data structure**</summary>
-  ```
+```shell
 ExperimentalData
 |-- SampleType
 |   |-- LNO_Gr
@@ -52,7 +52,7 @@ Consistent and descriptive names will make it easier to locate and understand th
 
 {::options parse_block_html="true" /}
 <details><summary markdown="span">**Press for an example for naming convention**</summary>
-```
+```shell
 ExperimentalData
 |-- SampleType
 |   |-- LNO_Gr
@@ -75,7 +75,7 @@ Separate raw, pre-processed, processed, and analyzed data: maintain separate fol
 
 {::options parse_block_html="true" /}
 <details><summary markdown="span">**Press for an example**</summary>
-```
+```shell
 ExperimentalData
 |-- SampleType
 |   |-- LNO_Gr
@@ -114,7 +114,7 @@ This is a basic example to document the experiment.
 # X-ray Diffraction (XRD) Experiment Report
 
 ## Experiment Details
-- Facility: ESRF
+- Facility: [e.g. ESRF]
 - Beamline Name/ID: [Beamline Name or ID]
 - Experiment Date: [Date of the Experiment]
 - Sample Description: [Description of the Sample]
@@ -145,7 +145,7 @@ This is a basic example to document the experiment.
 
 This a template with the basic structure to report data analysis. It has to be customized to fit the specific details and requirements of your technique and research objectives.
 
-```
+```yml
 # XRD Data Analysis Report
 
 ## Analysis Details
@@ -198,7 +198,7 @@ In the case your data undergoes iterative changes during analysis, using version
 
 ## Git global setup
 ------------------
-```
+```shell
 git config --global user.name "Your Name"
 git config --global user.email "youremail@email.com"
 ```
@@ -206,21 +206,21 @@ git config --global user.email "youremail@email.com"
 ## Use git locally in your machine.
 
 1. In the directory  you want to create the repository, initialize new repository git
-```
+```shell
 git init
 ```  
 2. If you have already the files created, add them in the virtual repertory
-```
+```shell
 git add .   # add all files in the current directory
 git add myfile.txt  # add a scpedific file
 ```
 3. Commit the changes to your local repository
-```
+```shell
 git commit -m "updating files"
 ```
    Every time you modify your files, you have to "add" them to the virtual repertory and then "commit"
 4. Commit history can be displayed
-```
+```shell
 git log
 ```
 
@@ -228,7 +228,7 @@ git log
 ## Push you local repository to GitHub
 You can push your local repository to GitHub as follows:
 
-```
+```shell
 git remote add origin <remote_repository_url>
 git branch -M main  # naming your branch "main"
 git push -u origin main # and push to GitHub
@@ -236,7 +236,7 @@ git push -u origin main # and push to GitHub
 
 
 ## Using an existing repository on GitHub to modify files
-```
+```shell
 git clone https://github.com/my/repository.git  # clone existing repository
 cd repository  # enter to the repository  directory
 # modify any existing file, e.g. myscript.py
@@ -291,15 +291,15 @@ You should regularly backup your data to prevent data loss using institutions’
 <details><summary markdown="span">**Press for an example to automate synchronization**</summary>
   
   For Unix-like system, it is helpful to create systematic synchronization of data. To do that, we need to create a cron job. We need to edit the crontab as follows:
-```
+```shell
 crontab -e
 ```
 this will open an editor in which you should specify the frequency of the synchronization, here we set it to every Tuesday and Friday at noon:
-```
+```shell
 0 12 * * 2,5 /path/to/rsync/myrsyncscript.sh
 ``` 
 You need to create the script myrsyncscript.sh containing the syncrhonization command, and change the permission to be able to be executed for any user:
-```
+```shell
 echo "rsync -avz /path/to/local/folder/ username@remote_server:/path/to/remote/folder/" > myrsyncscript.sh
 chmod +x /myrsyncsync.sh
 ```
