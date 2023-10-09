@@ -195,8 +195,9 @@ In the case your data undergoes iterative changes during analysis, using version
 {::options parse_block_html="true" /}
 <details><summary markdown="span">**Press for basic steps to use git**</summary>
 
-Git is a distributed version control system. It works locally on your machine, allowing you to track changes, create branches, and merge code changes.
-GitHub is a web-based platform and hosting service for 'git' repositories.
+**Git** is a distributed version control system. It works locally on your machine, allowing you to track changes, create branches, and merge code changes.
+
+**GitHub** is a web-based platform and hosting service for `git` repositories.
 
 ## Git global setup
 
