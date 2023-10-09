@@ -195,8 +195,13 @@ In the case your data undergoes iterative changes during analysis, using version
 {::options parse_block_html="true" /}
 <details><summary markdown="span">**Press for basic steps to use git**</summary>
 
+Git is a distributed version control system. It works locally on your machine, allowing you to track changes, create branches, and merge code changes.
+GitHub is a web-based platform and hosting service for 'git' repositories.
 
 ## Git global setup
+
+It is good practice to configurate your 'git' environment.  Your name and email will be used to identify you every time you commit (authorship for changes). 
+
 ------------------
 ```shell
 git config --global user.name "Your Name"
@@ -205,23 +210,32 @@ git config --global user.email "youremail@email.com"
   
 ## Use git locally in your machine.
 
-1. In the directory  you want to create the repository, initialize new repository git
+1. In the directory you want to create the repository, initialize new git repository. This will create an empty hidden .git folder 
 ```shell
-git init
+git init   # initializing empty git repositorty
+git status  # to check the status of the repository: On branch master, No commits yet, nothing to commit 
 ```  
-2. If you have already the files created, add them in the virtual repertory
+2. If you have already the files created, add them to the virtual repository
 ```shell
-git add .   # add all files in the current directory
-git add myfile.txt  # add a scpedific file
+git add .   # add all files in the current directory to the virtual repository
+git add myfile.txt  # add a specific file
+git status  # check status: On branch master, No commits yet, Changes to be committed-> new file:   myfile.txt
+
 ```
 3. Commit the changes to your local repository
 ```shell
-git commit -m "updating files"
+git commit -m "My comment: adding a new file"   # Commit the changes with a descriptive message, files are added to your repository.
 ```
    Every time you modify your files, you have to "add" them to the virtual repertory and then "commit"
 4. Commit history can be displayed
 ```shell
-git log
+git log   # commit history with reference
+```
+This is what is displayed. 'HEAD' means that this is the, and `master` means that we are looking at the commit history for the "master" branch.
+```shell
+commit f9c00170d3c09a6731b315b91b7863da91eec9d6 (HEAD -> master)
+Author: Cinthya Herrera <herrerac@ill.fr>
+...
 ```
 
 
@@ -252,7 +266,9 @@ add branching, etc
 There are many tutorials one can follow to learn git. Some of them:
 
 <a href="https://githowto.com/">General git tutorial 1</a>
+
 <a href="https://gitimmersion.com/">General git tutorial 2</a>
+
 <a href="https://learngitbranching.js.org/">Learn git branching interactively</a>
 
     
