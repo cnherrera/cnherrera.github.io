@@ -201,8 +201,6 @@ GitHub is a web-based platform and hosting service for 'git' repositories.
 ## Git global setup
 
 It is good practice to configurate your 'git' environment.  Your name and email will be used to identify you every time you commit (authorship for changes). 
-
-------------------
 ```shell
 git config --global user.name "Your Name"
 git config --global user.email "youremail@email.com"
