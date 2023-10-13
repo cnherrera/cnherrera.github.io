@@ -3,12 +3,12 @@ layout: subpages2
 title: BIG-MAP - WP5 - big data
 description: Data processing
 ---
-Data processing and analysis should always be tailored to the nature of the data at hand. In this context, we delve into three essential aspects of effectively managing both extensive datasets and low-quality (bad) data, all while offering practical examples and valuable tips. This platform is designed specifically for scientists, not necessarily experts in big data handing and analysis, aiming to assist you in your research journey and help you better exploit your data.
+This platform is designed specifically for scientists, not necessarily experts in big data handing and analysis, aiming to assist you in your research journey and help you better exploit your data.
+
+Data processing and analysis should always be tailored to the nature of the data at hand. In this context, we delve into three essential aspects of effectively managing both extensive datasets and low-quality (bad) data, all while offering practical examples and valuable tips. 
 
 
 # 1. Scripting and optimizing scripts
-
-
 
 When it comes to analyzing big data, scripting using languages like Python, which offers a wide range of helpful libraries, is a vital tool in your toolkit. With numerous datasets to handle, scripting allows you to automate tasks across all datasets, saving you time and maintaining consistency in your analysis. The beauty of scripted algorithms lies in their adaptability; modifications can be made easily to meet changing data needs.
 
@@ -31,7 +31,38 @@ When it comes to exploring big data, a spectrum of analytical techniques awaits 
 
 ## i. Statistical analysis
 
-Statistical models offer numerous avenues for extracting meaningful information from big data sets. Descriptive statistics, such as means, medians, variances, and standard deviations, provide a comprehensive overview of the data’s characteristics. Basic correlation analysis, both linear and nonlinear, using parameters such as the Pearson correlation coefficient, helps uncover relationships within the data. Furthermore, techniques like Principal Component Analysis (PCA) are used to reduce datasets complexity by lowering dimensionality. Bayesian models are also useful for estimating probabilities and assessing uncertainty. The Kolmorogov-Smirnov test proves useful in determining whether two datasets come from the same underlying distribution.
+Statistical models offer insights for big data analysis. Descriptive statistics (mean, median, variance, and standard deviation) provide an overview of data characteristics. Correlation analysis (e.g., Pearson coefficient) reveals relationships. Techniques like Principal Component Analysis (PCA) simplify data complexity. Bayesian models estimate probabilities and assess uncertainty. The Kolmogorov-Smirnov test checks for shared distributions in datasets.
+
+{::options parse_block_html="true" /}
+<details><summary markdown="span">**More about PCA**</summary>
+The  Principal Component Analysis are used to reduce datasets complexity by lowering dimensionality
+It is useful if we have a dataset with high dimension, where we know some dimensions may be correlated. Then we can use PCA to decrease the dimensionality of the data set to be able to better extract new information.
+
+It is easily accesible in Python, using the library ...
+
+```python
+
+my short code showing this
+```
+</details>
+{::options parse_block_html="false" /}
+
+
+
+{::options parse_block_html="true" /}
+<details><summary markdown="span">**More about **</summary>
+The Kolmorogov-Smirnov test proves useful in determining whether two datasets come from the same underlying distribution. Then, it is useful if we want to compare two datasets from the same technique.
+
+It is easily accesible in Python, using the library ...
+
+```python
+
+my short code showing this
+```
+</details>
+{::options parse_block_html="false" /}
+
+
 
 ## ii. Data mining
 Data mining refers to the discovery of patterns or associations within large datasets, with the goal of extracting useful information for decision-making or anomaly detection. This is done by using techniques such as clustering, which groups similar data points (e.g. using K-Means models), discovering unknown relationships between variables, finding unusual patterns, among others.
