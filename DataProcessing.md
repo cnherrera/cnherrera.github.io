@@ -208,7 +208,7 @@ my short code showing this
 {::options parse_block_html="false" /}
 
 {::options parse_block_html="true" /}
-<details><summary markdown="span">**More about **</summary>
+<details><summary markdown="span">**More about KS**</summary>
 The Kolmorogov-Smirnov test proves useful in determining whether two datasets come from the same underlying distribution. Then, it is useful if we want to compare two datasets from the same technique.
 
 It is easily accesible in Python, using the library ...
