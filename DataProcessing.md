@@ -14,12 +14,12 @@ In big data analysis, scripting with languages like Python is essential, thanks 
 
 We'll explore three key aspects to optimize your scripts and data analysis ahead.
 
-### - Parallel processing for uncorrelated data
+### a. Parallel processing for uncorrelated data
 
 Parallel processing is a good approach to optimize scripts. This implies breaking large datasets into smaller batches for simultaneous analysis. This approach boosts speed and efficiency, providing quicker insights. Ensure it's applied to independent datasets, as interdependencies may lead to bottlenecks. Various libraries, like Python's multiprocessing, distribute tasks across processors or machine clusters, maximizing computational power and reducing processing times.
 
 {::options parse_block_html="true" /}
-<details><summary markdown="span">**Press for an example of parallel processing **</summary>
+<details><summary markdown="span">**Press for an example of parallel processing**</summary>
 ```python
 def hola:
    return
@@ -29,7 +29,7 @@ def hola:
 {::options parse_block_html="false" /}
 
 
-### * Object-Oriented Programming (OOP)
+### b. Object-Oriented Programming (OOP)
 
 OOP offers organized, reusable code, making it easier to understand. OOP involves creating objects representing data structures or processing steps, each with unique attributes and methods. For instance, objects can be designed to load data, clean it, or run analyses.
 
@@ -139,7 +139,7 @@ for file in xrd_data_file:
 
 
 
-### _ Identifying bad data
+### c. Identifying bad data
 
 Identifying and handling bad data is critical in managing big data. The approach depends on the technique and data type. Defining what constitutes 'bad data' is essential. For example, imaging techniques may produce white pixels due to saturation or cosmic interference. While data visualization helps, it's impractical for large datasets. In such cases, statistical methods take the lead. Imaging and tomography software employ algorithms to clean data and reduce noise. 
 
@@ -148,10 +148,38 @@ Identifying and handling bad data is critical in managing big data. The approach
 
 We present an example of bad data identification in spectral data, flagging outliers as data points significantly deviating from the mean.
 
-```python
-def hola:
-   return
+We seek outliers in spectra by computing the mean value of intensities. Data points exceeding three times the standard deviation plus the mean value, and having consecutive points exceeding twice the standard deviation plus the mean value, are removed. This method ensures that peak points in certain patterns are not erroneously flagged as outliers. It's important to note that this example assumes a relatively linear baseline.
 
+add the application of the ourliers, 2 options: interpolation or NaN
+
+```python
+# Iteratively compute mean after removing extreme points until convergence. This 
+def compute_mean_without_extremes(y, threshold=3.0):
+    while True:
+        mean = np.mean(y)
+        std = np.std(y)
+        z_scores = np.abs((y - mean) / std)
+        if not any(z_scores > threshold):
+            break
+        y = y[z_scores <= threshold]
+    return np.mean(y)
+
+# Detect outliers based on z-scores with the computed mean
+def detect_outliers_zscore_with_neighbors(y, thr=3.0):
+    mean = compute_mean_without_extremes(y, thr)
+    std = np.std(y)
+    z_scores = np.abs((y - mean) / std)
+    outliers = np.abs(z_scores) > thr
+    # Check if the point before and after exceeds half the threshold
+    for i in range(1, len(outliers) - 1):
+        if np.abs(z_scores[i - 1]) < thr / 2 and np.abs(z_scores[i + 1]) < thr/2:
+            outliers[i] = False
+    return outliers
+
+# Set a z-score threshold for outlier detection
+zscore_thr = 3.0
+
+outliers = detect_outliers_zscore_with_neighbors(y_data, zscore_thr)
 ```
 </details>
 {::options parse_block_html="false" /}
