@@ -39,9 +39,99 @@ OOP offers organized, reusable code, making it easier to understand. OOP involve
 We illustrate OOP with an example for efficient spectral data analysis, featuring general objects for loading and plotting data. Two more objects, XPS and XRD, inherit functionalities from the general ones, streamlining data loading and plotting. Each object has technique-specific analysis methods, promoting shared algorithms across diverse data analysis methods.
 
 ```python
-def hola:
-   return
+import csv
+import matplotlib.pyplot as plt
 
+class Load:  # Create Load object.
+    def __init__(self, data_file):
+        self.data_file = data_file
+        self.data = None
+    
+    def load_data(self): # create attribute to load data
+        with open(self.data_file, 'r') as file:
+            csv_reader = csv.reader(file)
+            self.data = [row for row in csv_reader]
+
+class Plot: # Create Plot object.
+    def __init__(self, data, x_axis, y_axis):
+        self.data = data
+        self.x_axis = x_axis
+        self.y_axis = y_axis
+    
+    def plot(self):
+        x_values = [float(row[0]) for row in self.data]  # Assuming the x-values are in the first column
+        y_values = [float(row[1]) for row in self.data]  # Assuming the y-values are in the second column
+        plt.figure(figsize=(8, 6))
+        plt.plot(x_values, y_values)
+        plt.xlabel(self.x_axis)
+        plt.ylabel(self.y_axis)
+        plt.title("Data Plot")
+        plt.show()
+
+class XPS(Load, Plot): # XPS object to perform data analysis to XPS data. It inheritates the Load and Plot objects defined above.
+    def __init__(self, data_file):
+        super().__init__(data_file)
+    
+    def analyze(self):
+        print(f"Performing XPS analysis on data: {self.data_file}")
+        x_axis = "Binding Energy (eV)"
+        y_axis = "Intensity"
+        self.load_data()
+        #### do data analysis
+           analyzed_data = self.calculate_mean_intensity()
+        return analyzed_data  # Return the analyzed data
+
+def calculate_mean_intensity(self):
+           # Example: Calculate the mean intensity
+           intensity_values = [float(row[1]) for row in self.data]
+           mean_intensity = sum(intensity_values) / len(intensity_values)
+           return mean_intensity
+
+class XPS(Load, Plot): # XPS object to perform data analysis to XPS data. It inheritates the Load and Plot objects defined above.
+    def __init__(self, data_file):
+        super().__init__(data_file)
+    
+    def analyze(self):
+        print(f"Performing XPS analysis on data: {self.data_file}")
+        x_axis = "Binding Energy (eV)"
+        y_axis = "Intensity"
+        self.load_data()
+        #### do data analysis
+           analyzed_data = self.calculate_mean_intensity()
+        return analyzed_data  # Return the analyzed data
+
+       def calculate_mean_intensity(self):
+           # Example: Calculate the mean intensity
+           intensity_values = [float(row[1]) for row in self.data]
+           mean_intensity = sum(intensity_values) / len(intensity_values)
+           return mean_intensity
+
+
+class XRD(Load, Plot):
+    def __init__(self, data_file):
+        super().__init__(data_file)
+    
+    def analyze(self):
+        print(f"Performing XRD analysis on data: {self.data_file}")
+        x_axis = "Scattering Angle (degrees)"
+        y_axis = "Intensity"
+        self.load_data()
+        # do some analysis
+        # analyzed_data = some_analysis()
+        return analyzed_data  # Return the loaded data
+
+# Create instances of XPS and XRD
+xps_data_file = "XPS_Data.csv"
+xrd_data_file = ["XRD_Data1.csv","XRD_Data3.csv","XRD_Data2.csv"]
+
+xps_analysis = XPS(xps_data_file)
+
+for file in xrd_data_file:
+    xrd_analysis = XRD(file)
+       # Visualize the data with plot()
+    xrd_analysis.plot()
+       # Get the analyzed data with analyze()
+    result = xrd_analysis.analyze()  # how to store “result” depends on the format
 ```
 </details>
 {::options parse_block_html="false" /}
