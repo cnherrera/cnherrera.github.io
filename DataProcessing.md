@@ -225,12 +225,6 @@ Statistical models offer insights for big data analysis. Descriptive statistics 
 The  Principal Component Analysis are used to reduce datasets complexity by lowering dimensionality
 It is useful if we have a dataset with high dimension, where we know some dimensions may be correlated. Then we can use PCA to decrease the dimensionality of the data set to be able to better extract new information.
 
-It is easily accesible in Python, using the library ...
-
-```python
-
-my short code showing this
-```
 </details>
 {::options parse_block_html="false" /}
 
@@ -238,11 +232,10 @@ my short code showing this
 <details><summary markdown="span">**More about KS**</summary>
 The Kolmorogov-Smirnov test proves useful in determining whether two datasets come from the same underlying distribution. Then, it is useful if we want to compare two datasets from the same technique.
 
-It is easily accesible in Python, using the library ...
+It is easily accesible in Python, using the library scipy.
 
 ```python
-
-my short code showing this
+add a short code showing this
 ```
 </details>
 {::options parse_block_html="false" /}
