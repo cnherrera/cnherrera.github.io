@@ -21,8 +21,35 @@ Parallel processing is a good approach to optimize scripts. This implies breakin
 {::options parse_block_html="true" /}
 <details><summary markdown="span">**Press for an example of parallel processing**</summary>
 ```python
-def hola:
-   return
+import numpy as np
+import multiprocessing
+from scipy.optimize import curve_fit
+
+# Define a Pseudo-Voigt function
+def pseudo_Voigt(x, A, x0, sigma, eta):
+gaussian=(1-eta)*(A/(sigma*np.sqrt(2*np.pi)))*np.exp(-((x-x0)/(sigma*np.sqrt(2)))**2)
+    lorentzian = eta * (A / (np.pi * (sigma**2 + (x - x0)**2)))
+    return gaussian + lorentzian
+
+def my_process(data):  
+    # Initial guess
+    initial_guess = [1.0, 5.0, 1.0, 0.5]
+
+ # Function to be applied to data 
+    try:
+        params, _ = curve_fit(pseudo_Voigt, x, y, p0=initial_guess)
+        return params
+    except Exception as e:
+        return None
+
+# Reading the amount of available CPUs to be used
+num_processes = multiprocessing.cpu_count()
+# Initiating the pool
+pool = multiprocessing.Pool(processes=num_processes)
+# Apply my_process to a list of spectra.
+processed_data = pool.map(my_process, spectra_list)
+
+   
 
 ```
 </details>
