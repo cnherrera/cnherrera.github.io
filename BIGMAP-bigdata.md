@@ -22,9 +22,6 @@ New technologies have allowed a fast development of battery characterization tec
 
 Highlighting the relevance of big data in science, particularly within one's own field, is critical. The significance of big data in science originates from the continuous evolution of science, marked by significant advancements in scientific instruments and simulations that generate vast volumes of data. Big data offers several advantages, including the ability to conduct comprehensive data exploration, investigating large and diverse datasets to unveil patterns and correlations that were previously inaccessible. It provides a holistic perspective on complex phenomena, enabling a deeper comprehension of natural processes. Moreover, it contributes to research efficiency by automating data processing, analysis, and visualization, streamlining workflows, reducing manual labor, and delivering quicker insights. This, in turn, empowers researchers to concentrate on higher-level analysis and interpretation. Lastly, big data promotes the principles of data FAIRness, fostering reproducibility and transparency in scientific research. 
 
-# Test
-
-ddd
 
 
 [Data structure and organization](DataOrganization.md)
@@ -32,6 +29,6 @@ ddd
 [Data processing](DataProcessing.md)
 
 
-# Acknowledgments
+## Acknowledgments
  
 This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 957189.
