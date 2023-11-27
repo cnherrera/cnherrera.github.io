@@ -1,6 +1,6 @@
 ---
 layout: main
-title: BIG-MAP - WP5 - big data
+title: BIG-MAP - Characterization techniques - big data
 description: Best practices for big data in characterization 
 ---
 Welcome to our collaborative online platform designed to empower scientists like you in our working group. This website serves as a hub for seamless collaboration, providing valuable insights, practical tips, and script enhancements for efficient management and analysis of extensive battery characterization data. Whether you're handling big data or addressing the challenges of poor-quality (bad) data, our platform is here to support you every step of the way. Explore examples, access tutorials, and tap into a wealth of resources as we work together to unlock the full potential of your research.
@@ -29,6 +29,6 @@ Highlighting the relevance of big data in science, particularly within one's own
 [Data processing](DataProcessing.md)
 
 
- ## Acknowledgments
+ # Acknowledgments
  
  This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 957189.
