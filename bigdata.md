@@ -31,4 +31,4 @@ Highlighting the relevance of big data in science, particularly within one's own
 
 ## Acknowledgments
  
-This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 957189.
+This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 957189. The project is part of BATTERY 2030+, a large-scale European research initiative for inventing the sustainable batteries of the future.
