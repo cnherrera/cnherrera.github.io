@@ -1,7 +1,7 @@
 ---
 layout: subpages1
-title: Characterization techniques - big data
-description: Data structure and organization
+title: Data structure and organization 
+description: Characterization techniques - big data
 ---
 
 Data organization is a fundamental task in general data analysis, regardless of the data type and size. It is essential for understanding the data and thus work efficiently. We propose following seven steps to effectively organize and handle the data.
