@@ -1,7 +1,7 @@
 ---
 layout: subpages2
-title: BIG-MAP - WP5 - big data
-description: Data processing
+title: Data processing
+description: Characterization techniques - big data
 ---
 This platform is designed specifically for scientists, not necessarily experts in big data handing and analysis, aiming to assist you in your research journey and help you better exploit your data.
 
@@ -272,4 +272,4 @@ Please modify the file:
 [Add topic here]
 
 
-[back](BIGMAP-bigdata.md)
+[back](bigdata.md)
