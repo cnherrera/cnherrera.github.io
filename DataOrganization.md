@@ -1,6 +1,6 @@
 ---
 layout: subpages1
-title: BIG-MAP - WP5 - big data
+title: Characterization techniques - big data
 description: Data structure and organization
 ---
 
@@ -104,8 +104,6 @@ DataAnalysis
 ![number4](https://github.com/cnherrera/cnherrera.github.io/assets/25098422/068bbcae-68c6-44ca-a160-59bb02e26f5e){:height="50px"}
 
 Keep a record of the steps and procedures you follow during data processing. Documenting your workflow will help you reproduce your results and troubleshoot any issues that may arise.
-
-Add CHADA?
 
 {::options parse_block_html="true" /}
 <details><summary markdown="span">**Press for an example of experimental report**</summary>
@@ -286,8 +284,7 @@ Include metadata alonside your data to provide supplementary information crucial
 {::options parse_block_html="true" /}
 <details><summary markdown="span">**Press for a discussion on ontologizing metadata**</summary>
 
-A further step can be considered by ontologizing metadata following ontologies by WP7
-(add example? how?).
+A further step can be considered by ontologizing metadata following ontologies.
 - why it is important?
 - Give an example
 - Needs for more development on the behind the scenes (RDP)
@@ -342,4 +339,4 @@ Please modify the file:
 [Add topic here]
 
 
-[back](BIGMAP-bigdata.md)
+[back](bigdata.md)
