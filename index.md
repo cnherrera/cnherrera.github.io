@@ -33,7 +33,7 @@ My work focuses on structuring scientific data, developing reproducible workflow
 ### Data Workflows & Automation
 
 - 🔗 [Automated Data Calibration – Mantid](https://github.com/cnherrera/automated-data-calibration-d2b-mantid)  
-  Automated workflows for powder diffraction data reduction using Mantid (Python).  
+  Automated workflows for powder diffraction data reduction (D2B, ILL) using Mantid (Python).  
   → Developed in the context of large-scale experimental facilities and collaborative projects.
 
 ---
@@ -64,8 +64,8 @@ They reflect a strong focus on:
 ---
 
 ## 📫 Contact
-
-- LinkedIn: https://www.linkedin.com/in/myprof  
-- ORCID: https://orcid.org/0000-0001-6405-1111  
+Cinthya N. Herrera
+- LinkedIn: https://www.linkedin.com/in/cinthyaherrera 
+- ORCID: https://orcid.org/0000-0001-6405-0785
 
 ---
