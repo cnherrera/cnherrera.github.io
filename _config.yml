@@ -1,5 +1,5 @@
-title: Cinthya Herrera
+title: Cinthya N. Herrera
 description: Cayman is a clean, responsive theme for GitHub Pages.
-show_downloads: true
-google_analytics:
+show_downloads: false
+google_analytics: true
 theme: jekyll-theme-cayman
