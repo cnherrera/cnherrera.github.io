@@ -21,6 +21,13 @@ My work focuses on structuring scientific data, developing reproducible workflow
   → Supports interoperability and data sharing across the French research community.
 
 ---
+## 🔋 Battery Science & Big Data
+- 🔗 [Big Data in Battery Characterization](https://cnherrera.github.io/bigdata)  
+  Collaborative online platform with best practices, tutorials, and tools for managing and analysing large-scale battery characterization data.  
+  → Covers data organisation and data processing workflows for experimental datasets.  
+  → [Data Structure & Organisation](https://github.com/cnherrera/cnherrera.github.io/blob/master/DataOrganization.md) · [Data Processing](https://github.com/cnherrera/cnherrera.github.io/blob/master/DataProcessing.md)  
+  → EU Horizon 2020 / BATTERY 2030+ programme (Grant No. 957189).
+---
 
 ### Ontologies & Knowledge Structuring
 
@@ -49,7 +56,7 @@ My work focuses on structuring scientific data, developing reproducible workflow
   → Published as part of a study of star formation environments across multiple galaxies.
 
   
---
+---
 
 ## 🤝 Collaborative Research Context
 
