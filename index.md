@@ -44,7 +44,12 @@ My work focuses on structuring scientific data, developing reproducible workflow
   Python workflows for calibration, reduction, and analysis of radio astronomy data.  
   → Used in international collaborations for large observational datasets.
 
----
+- 🔗 [GMC–HII Region Statistical Analysis](https://github.com/cnherrera/GMCHIIR)
+  Python tools for spatial matching and statistical analysis of molecular clouds (GMCs) and HII regions in nearby galaxies, built on PHANGS-ALMA and PHANGS-MUSE survey data.
+  → Published as part of a study of star formation environments across multiple galaxies.
+
+  
+--
 
 ## 🤝 Collaborative Research Context
 
