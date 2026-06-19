@@ -21,11 +21,11 @@ My work focuses on structuring scientific data, developing reproducible workflow
   → Supports interoperability and data sharing across the French research community.
 
 ---
-## 🔋 Battery Science & Big Data
-- 🔗 [Big Data in Battery Characterization](https://cnherrera.github.io/bigdata)  
+### 🔋 Battery Science & Big Data
+- 🔗 [Big Data in Battery Characterization](https://cnherrera.github.io/bigdata)  https://cnherrera.github.io/DataOrganization.html
   Collaborative online platform with best practices, tutorials, and tools for managing and analysing large-scale battery characterization data.  
   → Covers data organisation and data processing workflows for experimental datasets.  
-  → [Data Structure & Organisation](https://github.com/cnherrera/cnherrera.github.io/blob/master/DataOrganization.md) · [Data Processing](https://github.com/cnherrera/cnherrera.github.io/blob/master/DataProcessing.md)  
+  → [Data Structure & Organisation](https://cnherrera.github.io/DataOrganization.html) · [Data Processing](https://cnherrera.github.io/DataProcessing.html)  
   → EU Horizon 2020 / BATTERY 2030+ programme (Grant No. 957189).
 ---
 
@@ -34,6 +34,8 @@ My work focuses on structuring scientific data, developing reproducible workflow
 - 🔗 [Exa-AToW Ontology](https://github.com/cnherrera/Exa-AToW_onto)  
   Ontology design for structuring materials science workflows, HPC environments, and project ecosystems.  
   → Contributes to improving collaboration, visibility of competencies, and knowledge organization across projects.
+  → Knowledge Graph: [Ontology viewer](https://cnherrera.github.io/DIAMOND_ontology/onto-viewer.html)
+  (Tbox and Abox)
 
 ---
 
