@@ -21,14 +21,6 @@ My work focuses on structuring scientific data, developing reproducible workflow
   → Supports interoperability and data sharing across the French research community.
 
 ---
-### 🔋 Battery Science & Big Data
-- 🔗 [Big Data in Battery Characterization](https://cnherrera.github.io/bigdata)  https://cnherrera.github.io/DataOrganization.html
-  Collaborative online platform with best practices, tutorials, and tools for managing and analysing large-scale battery characterization data.  
-  → Covers data organisation and data processing workflows for experimental datasets.  
-  → [Data Structure & Organisation](https://cnherrera.github.io/DataOrganization.html) · [Data Processing](https://cnherrera.github.io/DataProcessing.html)  
-  → EU Horizon 2020 / BATTERY 2030+ programme (Grant No. 957189).
----
-
 ### Ontologies & Knowledge Structuring
 
 - 🔗 [Exa-AToW Ontology](https://github.com/cnherrera/Exa-AToW_onto)  
@@ -45,6 +37,15 @@ My work focuses on structuring scientific data, developing reproducible workflow
 - 🔗 [Automated Data Calibration – Mantid](https://github.com/cnherrera/automated-data-calibration-d2b-mantid)  
   Automated workflows for powder diffraction data reduction (D2B, ILL) using Mantid (Python).  
   → Developed in the context of large-scale experimental facilities and collaborative projects.
+---
+
+### 🔋 Battery Science & Big Data
+- 🔗 [Big Data in Battery Characterization](https://cnherrera.github.io/bigdata)  https://cnherrera.github.io/DataOrganization.html
+  Collaborative online platform with best practices, tutorials, and tools for managing and analysing large-scale battery characterization data.  
+  → Covers data organisation and data processing workflows for experimental datasets.  
+  → [Data Structure & Organisation](https://cnherrera.github.io/DataOrganization.html) · [Data Processing](https://cnherrera.github.io/DataProcessing.html)  
+  → EU Horizon 2020 / BATTERY 2030+ programme (Grant No. 957189).
+---
 
 ---
 
